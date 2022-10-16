@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	int n;
+	int a;
 
-	for (n = 48; n < 58; n++)
+	for (a = 0; a < 100; a++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(a + '0');
+		if (a < 99)
 		{
 			putchar(',');
-			putchat(' ');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
