@@ -14,7 +14,7 @@ int main(void)
 	{
 		if ((prime % 2) == 0)
 		{
-			primr /= 2;
+			prime /= 2;
 			continue;
 		}
 
