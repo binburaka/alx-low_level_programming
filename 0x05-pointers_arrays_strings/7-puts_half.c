@@ -1,4 +1,4 @@
-#inclde "main.h"
+#include "main.h"
 
 /**
  * puts_half - prints of a string
@@ -21,5 +21,5 @@ void puts_half(char *str)
 		str++;
 	}
 
-	_putchar('\n')
+	_putchar('\n');
 }
